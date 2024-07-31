@@ -2,7 +2,9 @@
 
 """The setup script."""
 
-from setuptools import setup, find_packages  # , find_namespace_packages
+from setuptools import setup
+# from setuptools import find_packages
+from setuptools import find_namespace_packages
 import versioneer
 
 with open("README.rst") as readme_file:
@@ -90,9 +92,9 @@ setup(
     include_package_data=True,
     keywords="fwd",
     name="fwd",
-    packages=find_packages(
+    packages=find_namespace_packages(
         include=["fwd", "fwd.*"],
-        exclude=["tests", "*.tests", "*.tests.*"],
+        # exclude=["fwd.tests", "tests", "*.tests", "*.tests.*"],
     ),
     test_suite="fwd.tests",
     tests_require=test_requirements,
