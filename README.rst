@@ -13,11 +13,12 @@ fwd
 
 
 
-fwd: forwad
+fwd: forward
 
 
 * Free software: GNU General Public License v3
 * Documentation: https://fwd.readthedocs.io.
+* Source: https://github.com/cogsys-io/fwd.
 
 
 Features

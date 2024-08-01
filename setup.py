@@ -78,7 +78,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
     ],
-    description="fwd: forwad",
+    description="fwd: forward",
     entry_points={
         "console_scripts": [
             "fwd=fwd.cli.fwd:main",
