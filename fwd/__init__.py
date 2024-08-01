@@ -11,6 +11,7 @@ __version_dict__ = _version.get_versions()
 
 __author__ = """cogsys.io"""
 __email__ = "cogsys@cogsys.io"
+__source__ = "https://github.com/cogsys-io/fwd"
 
 
 def get_module_version():
